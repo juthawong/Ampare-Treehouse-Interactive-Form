@@ -11,8 +11,7 @@ jQuery(document).ready(function(){
     jQuery('#credit-card').hide(); //Hide Credit Card
     paypal.hide(); // Hide Paypal
     bitcoin.hide(); //Hide Bitcoin
-    jQuery('#title').closest('fieldset').append("<input type='text' id='other-title' placeholder='Your Job Role'> ");
-    //Create a new other-title field
+    
     jQuery("#other-title").hide();
     //Hide other-title field
     jQuery('.activities').append("<p id='totalprice'></p>" );
